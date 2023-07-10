@@ -29,5 +29,6 @@ fp-info-cache
 *.csv
 
 
+# new added by me
 .DS_Store
 MCUDataloggerGebers/*
