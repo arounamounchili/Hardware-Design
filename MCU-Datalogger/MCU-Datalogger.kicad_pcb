@@ -366,7 +366,7 @@
 
   (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (layer "F.Cu")
     (tstamp 182d8edd-00d5-49f1-8da8-6be78a80571d)
-    (at 139.7 80.645)
+    (at 139.7254 80.7724)
     (descr "SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -375,7 +375,7 @@
     (property "ki_keywords" "I2C Serial EEPROM")
     (path "/6559d34a-17b3-48da-91ed-7174906faa51")
     (attr smd)
-    (fp_text reference "U2" (at 0 -3.56) (layer "F.SilkS")
+    (fp_text reference "U2" (at 0.3025 -3.56) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aec3efe0-2010-4cdd-8851-114d7a137893)
     )
@@ -448,7 +448,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 1c0c961a-c3ad-4c2f-bdd6-2ea6da29b9d8)
-    (at 159.385 103.505 90)
+    (at 160.02 103.505 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Purpose" "Serial UART")
@@ -517,7 +517,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 24b366e8-30d6-4e8c-8cde-2d5aed7889ae)
-    (at 161.5675 78.74)
+    (at 161.8238 78.9074)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -699,7 +699,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp 52bb390d-2b05-421c-9a88-29156ae1d652)
-    (at 156.21 78.74)
+    (at 156.464 78.8924)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Purpose" "")
@@ -754,7 +754,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" (layer "F.Cu")
     (tstamp 54b8745a-2c54-4f99-ac38-106d4db76bd1)
-    (at 133.985 103.505 90)
+    (at 134.62 103.632 90)
     (descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x09 2.54mm single row")
     (property "Purpose" "GPIO")
@@ -888,7 +888,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tstamp 96682c12-dfdd-43d3-b0fa-ebb62d1ebac9)
-    (at 129.54 104.14)
+    (at 130.048 105.664)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -993,7 +993,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp a15836be-f10d-4b7b-9e95-8479216bd371)
-    (at 165.735 78.74)
+    (at 165.9913 78.9074)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -1442,7 +1442,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tstamp ac67047a-2199-495b-be68-f551b33f976d)
-    (at 175.26 104.14)
+    (at 175.26 105.664)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -1609,7 +1609,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp b4a7a9d9-acf3-4308-b53c-33521fdae720)
-    (at 147.32 78.74)
+    (at 147.6248 78.8924)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Purpose" "")
@@ -1797,7 +1797,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tstamp c2b72d44-2d27-4d86-8be8-1cb1cd3a5a79)
-    (at 129.54 78.74)
+    (at 130.048 77.724)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -1882,7 +1882,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tstamp cec2048c-d669-4ea3-a4b5-cb7ee424a8af)
-    (at 175.26 78.74)
+    (at 175.26 77.724)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "MCU-Datalogger.kicad_sch")
@@ -2044,7 +2044,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tstamp f5e103a8-62fe-42b6-827e-423a464ea31b)
-    (at 151.13 78.74)
+    (at 151.4094 78.8924)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Purpose" "")
@@ -2152,7 +2152,23 @@
     )
   )
 
-  (gr_rect (start 127 76.2) (end 177.8 106.68)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 82217192-b00c-4f03-83e8-b816b2316e63))
+  (gr_line (start 133.096 105.664) (end 172.212 105.664)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 0bf44681-fe21-43e8-9666-c6673f96fb4f))
+  (gr_line (start 175.26 101.6) (end 175.26 80.772)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2012024f-7729-49de-b731-7b58dffc41bb))
+  (gr_line (start 130.048 80.772) (end 130.048 102.616)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2f95a310-f42c-4b93-a924-b0d048ad4f05))
+  (gr_arc (start 130.048 80.772) (mid 127.892739 75.568739) (end 133.096 77.724)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 3613f5bc-5bf1-4672-93a9-a8a75b117f7e))
+  (gr_line (start 172.212 77.724) (end 133.096 77.724)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 5ff654c9-39b9-4d1b-a7fc-f3f101fa46eb))
+  (gr_arc (start 172.212 77.724) (mid 177.415261 75.568739) (end 175.26 80.772)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 648f1b34-bfec-4285-aafc-d12e1cfead56))
+  (gr_arc (start 133.096 105.664) (mid 127.892739 107.819261) (end 130.048 102.616)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 89ff3022-f03d-42f7-a253-092aef180160))
+  (gr_line (start 175.26 102.616) (end 175.26 101.6)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a7cae65a-b858-4189-a35e-514cb9ee6921))
+  (gr_arc (start 175.26 102.616) (mid 177.415261 107.819261) (end 172.212 105.664)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp cfb60865-9da9-4898-96b7-a33793acc1cf))
 
 )
