@@ -2182,14 +2182,14 @@
     (property "Purpose" "" (at 64.77 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid e49fe2bb-10f5-4871-bd69-961e1fb68a8d))
-    (pin "2" (uuid 096591e2-2e0f-4236-b8f3-006908a4c21d))
-    (pin "3" (uuid 124b94e7-a9c8-4711-be4d-763b81d4d1a6))
-    (pin "4" (uuid e08ee989-7994-4a4d-a6c2-9324aa69de0a))
-    (pin "5" (uuid 4ad18b9b-446f-4322-b2fd-d989906ca4f6))
-    (pin "6" (uuid ee6fd797-0f9c-46a3-b818-50191ba95e37))
-    (pin "7" (uuid 03764ee3-7770-4358-b5e1-c231f1c574de))
-    (pin "8" (uuid c17d4290-5e56-4c99-b5d8-3a9344926003))
+    (pin "1" (uuid 01d564e0-9bda-420a-916e-e871a521c169))
+    (pin "2" (uuid 9a544c19-1df1-4232-b108-302b0cc91ce6))
+    (pin "3" (uuid 06b79667-58bb-4f4b-b5a2-d411ab2dc99f))
+    (pin "4" (uuid 2b35a4f6-5a46-4f16-a82e-026159ebd2e2))
+    (pin "5" (uuid 0dedc1e7-6cbd-42ee-8d2e-a1f7ee0b6589))
+    (pin "6" (uuid 4a8aea99-e669-466f-81bc-585bd0ed9533))
+    (pin "7" (uuid 9de38d59-03ea-45c4-9cd7-b9873b7e5f35))
+    (pin "8" (uuid 3dcc95b8-175d-4a1b-9b78-853f6784913d))
     (instances
       (project "MCU-Datalogger"
         (path "/ff08e7c5-b4dc-4c9c-b680-b2226ed71bf7"
