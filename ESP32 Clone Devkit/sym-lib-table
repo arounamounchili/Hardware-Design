@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "B3S-1000P")(type "KiCad")(uri "${KIPRJMOD}/Librairies/B3S-1000P/B3S-1000P.kicad_sym")(options "")(descr ""))
+  (lib (name "CP2102N-A02-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/Librairies/CP2102N-A02-GQFN28/CP2102N-A02-GQFN28.kicad_sym")(options "")(descr ""))
+)
