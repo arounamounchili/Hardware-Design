@@ -268,6 +268,57 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -275,7 +326,196 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/DCD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CLK"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CMD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/CTS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/DSR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/DTR"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/EN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/EXT_5V"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO0"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO2"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO4"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO5"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO12"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO13"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO14"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO15"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO16"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO17"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO18"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO19"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO21"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO22"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO23"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO25"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO26"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO27"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO32"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO33"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO34"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/IO35"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SENSOR_VP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SENSOR_VN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SD1"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/TXD0"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/TXD"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/RXD0"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/RXD"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VDD33"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USB_DN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/USB_DP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RI"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RTS"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -328,5 +568,7 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_name": "ESP32 Clone Devkit"
+  }
 }
