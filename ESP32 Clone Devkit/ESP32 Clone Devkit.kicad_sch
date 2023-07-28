@@ -7,7 +7,7 @@
   (title_block
     (title "${project_name}")
     (date "2023-07-25")
-    (rev "V1.0")
+    (rev "1.0")
   )
 
   (lib_symbols
