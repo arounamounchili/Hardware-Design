@@ -444,7 +444,7 @@
       (net 1 "GND") (pinfunction "WP") (pintype "input") (tstamp d49215c7-714c-4da8-8406-74e3a5d07451))
     (pad "8" smd roundrect (at 3.6 -1.905) (size 1.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/Vcc") (pinfunction "VCC") (pintype "power_in") (tstamp 378cfc81-243b-4787-9033-872da90ed86d))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Libraries/3D/24LC1025-E_SN.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -989,7 +989,7 @@
       (net 25 "Net-(U3-X2)") (pinfunction "1") (pintype "passive") (tstamp 603a2f83-3598-4192-a939-c3c3f8fd9739))
     (pad "2" smd rect (at 2.6 0 90) (size 3.5 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "Net-(U3-X1)") (pinfunction "2") (pintype "passive") (tstamp 06819f84-222c-4ab8-8a4b-08f19440d8a8))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering.wrl"
+    (model "${KIPRJMOD}/Libraries/3D/Crystal_32k678HZ.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1443,6 +1443,11 @@
       (net 11 "/TX") (pinfunction "PD1") (pintype "bidirectional") (tstamp 6d142a98-38bb-4bde-8b73-3c150b939113))
     (pad "32" smd rect (at -2.8 -4.3) (size 0.55 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "/D2") (pinfunction "PD2") (pintype "bidirectional") (tstamp c0cd6a58-7b1c-4d46-bf1c-4e7ca0a78435))
+    (model "${KIPRJMOD}/Libraries/3D/ATMEGA328P-AU--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
@@ -1605,7 +1610,7 @@
       (net 1 "GND") (pinfunction "WP") (pintype "input") (tstamp d3d7985a-7a61-4756-a64f-c7794d2ae12f))
     (pad "8" smd roundrect (at 3.6 -1.905) (size 1.6 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "/Vcc") (pinfunction "VCC") (pintype "power_in") (tstamp 255a9204-e72b-433f-ad35-bddda020052c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/Libraries/3D/24LC1025-E_SN.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1798,6 +1803,11 @@
       (net 23 "Net-(U3-SQW{slash}~INT)") (pinfunction "SQW/~INT") (pintype "output") (tstamp ad12800c-4956-40e3-82ea-4fb026015701))
     (pad "8" smd roundrect (at 2.475 -1.905) (size 1.97 0.59) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.07)
       (net 2 "/Vcc") (pinfunction "VCC") (pintype "power_in") (tstamp 9af67856-3f7c-44b1-a485-c62ea0ddb27b))
+    (model "${KIPRJMOD}/Libraries/3D/DS1337S.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
