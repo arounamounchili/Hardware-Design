@@ -1,0 +1,22 @@
+### Footprint positions - created on 2024-11-26T14:30:40+0100 ###
+### Printed by KiCad version 8.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                                                PosX       PosY       Rot  Side
+C1        4.7_µF,_50_V,_X7R_(0805)  C_0805_2012Metric                                   74.2950  -106.6800  180.0000  top
+C2        22_µF,_10_V,_X7R_(1206)  C_1206_3216Metric                                   66.6750  -109.8550  180.0000  top
+C3        10_pF,_50_V,_X7R_(0805)   C_0805_2012Metric                                   74.2950  -110.0250    0.0000  top
+D1        SS14                      DIOM4325X250N                                       63.5000   -95.2500  180.0000  top
+D2        SS14                      DIOM4325X250N                                       54.6100   -95.2500  180.0000  top
+J1        Conn_01x02_Pin            PinHeader_1x02_P2.54mm_Horizontal                   81.3500  -100.9600    0.0000  top
+J2        Conn_01x02_Pin            PinHeader_1x02_P2.54mm_Horizontal                   48.2600  -106.6850  180.0000  top
+J3        Conn_01x02_Pin            SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm    57.1500  -100.9650  180.0000  top
+J4        Conn_01x02_Pin            PinHeader_1x02_P2.54mm_Horizontal                   48.2600  -100.3300  180.0000  top
+L1        ASPI-0630LR-100M-T15      IND_ASPI-0630LR_ABR                                 74.9300   -97.1550  -90.0000  top
+Q1        2N7002                    SOT-23                                              53.3400  -107.9500    0.0000  top
+R1        1_MOhms                   R_0805_2012Metric                                   69.2150  -106.6800    0.0000  top
+R2        604_kOhms,_1%             R_0805_2012Metric                                   64.4925  -106.6800    0.0000  top
+R3        10_kOhms                  R_0805_2012Metric                                   59.4125  -106.6800  180.0000  top
+R4        1_MOhms                   R_0805_2012Metric                                   59.4125  -110.0550    0.0000  top
+U1        AP3015AKTR-G1             SOT23-5_1P55X2P9_DIO                                66.5797  -100.0100  180.0000  top
+## End
